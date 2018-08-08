@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.bnwmovies.tva" name="BNW Movies" version="1.0.0" provider-name="tvaddons">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Old Movies, Black and White Movies, Classic Movies</summary>
+    <description lang="en">Watch Classic Black and White Movies From bnwmovies.com</description>
+    <forum>https://www.tvaddons.co/forums</forum>
+    <website>https://www.tvaddons.co</website>
+    <platform>all</platform>
+  </extension>
+</addon>
